@@ -1,0 +1,44 @@
+body{
+    background-color:cornsilk;
+}
+
+h1{
+    margin:10px auto 20px;
+    width:260px;
+    font-family:'Trebuchet MS';
+    font-size:30px;
+    color:white;
+    text-align:center;
+    padding:10px;
+    background-color:#3ab7e8;
+    border:solid 2px #3784de;
+}
+
+h2{
+    font-size:20px;
+    font-family:Geneva;
+    border: solid 1px black;
+    text-align:center;
+}
+
+label{
+    font-size:16px;
+    font-family:Verdana;
+    display:inline-block;
+    width:150px;
+    border:solid 1px black
+}
+
+input{
+    font-family:Verdana;
+    display:inline-block;
+    width:150px;
+}
+
+.center{
+    margin:auto 40px auto;
+}
+
+.right{
+    margin:auto auto 30px auto
+}
