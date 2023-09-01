@@ -1,5 +1,9 @@
-body{
+.foorm{
     background-color:cornsilk;
+    width:604px; 
+    height:675px; 
+    padding:30px; 
+    margin:auto
 }
 
 h1{
@@ -26,19 +30,54 @@ label{
     font-family:Verdana;
     display:inline-block;
     width:150px;
-    border:solid 1px black
+    border:solid 1px black;
 }
 
 input{
     font-family:Verdana;
     display:inline-block;
-    width:150px;
+    width:148px;
+    border:solid 1px black;
+    background-color:bisque;
+    margin:0px auto 20px 0px;
 }
 
 .center{
-    margin:auto 40px auto;
+    margin:auto 40px 10px;
+    border:solid 1px black;
 }
 
 .right{
-    margin:auto auto 30px auto
+    margin:auto auto 10px 30px;
+    border:solid 1px black;
+}
+
+.left{
+    margin:auto 30px 10px auto;
+    border:solid 1px black;
+}
+
+.icenter{
+    margin:auto 40px 10px;
+    float:center;
+    border:solid 1px black;
+}
+
+.imleft{
+    margin:auto auto auto 235px
+}
+
+img{
+    width:125px; 
+    margin:auto 53.5px;
+}
+
+.quack{
+    border:1px black dotted
+}
+
+.centered{
+    text-align:center;
+    border:solid 1px black;
+    margin:10px auto auto auto;
 }

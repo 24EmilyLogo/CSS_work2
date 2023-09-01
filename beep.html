@@ -8,15 +8,35 @@
     <link rel="stylesheet" href="boop.css">
 </head>
 <body>
-    <h1>Duck Finder 365</h1>
-    <h2>Account Creation</h2>
+    <div class="foorm">
+        <h1>Duck Finder 365</h1>
+        <h2>Account Creation</h2>
+        <form>
+            <label class="right" for="fname">First Name</label>
+            <label class="center" for="lname">Last Name</label>
+            <label class="left" for="pnumber">Phone Number</label> <br>
 
-    <form>
-        <label class="right" for="fname">First Name</label>
-        <label class="center" for="lname">Last Name</label><br>
+            <input class="right" type="text" id="fname" name="fname" value="First Name">
+            <input class="icenter" type="text" id="lname" name="lname" value="Last Name">
+            <input type="tel" id="pnumber" name="pnumber" value="Phone Number"><br>
+            
+            <label class="right" for="dob">Date of Birth</label>
+            <label class="imleft" for="email">Email</label><br>
         
-        <input class="right" type="text" id="fname" name="fname" value="First Name">
-        <input class="center" type="text" id="lname" name="lname" value="Last Name">
-    </form>
+            <div class="quack">
+                <input class="right" type="date" id="dob" name="dob">
+                <img src="duck.jpg">
+                <input class="left" type="email" id="email" name="email" value="sample@email.com"><br>
+            </div>
+
+            <div class="centered">
+                <label for="username">Username</label><br>
+                <input type="text" id="username" name="username" value="Username"><br>
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password">
+            </div>
+
+        </form>
+    </div>
 </body>
 </html>
