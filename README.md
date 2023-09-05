@@ -11,3 +11,4 @@ Change log:
 - Changed width of Phone Number label and input to 150px
 - Put a div w/ cornsilk background around the whole form and made body background white
 - Changed size of Date input to 150px
+- Moved the picture down, margin left-right 240px
