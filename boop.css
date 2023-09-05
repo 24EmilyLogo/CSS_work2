@@ -21,7 +21,6 @@ h1{
 h2{
     font-size:20px;
     font-family:Geneva;
-    border: solid 1px black;
     text-align:center;
 }
 
@@ -30,7 +29,6 @@ label{
     font-family:Verdana;
     display:inline-block;
     width:150px;
-    border:solid 1px black;
 }
 
 input{
@@ -38,29 +36,24 @@ input{
     display:inline-block;
     width:148px;
     border:solid 1px black;
-    background-color:bisque;
     margin:0px auto 20px 0px;
 }
 
 .center{
     margin:auto 40px 10px;
-    border:solid 1px black;
 }
 
 .right{
     margin:auto auto 10px 30px;
-    border:solid 1px black;
 }
 
 .left{
     margin:auto 30px 10px auto;
-    border:solid 1px black;
 }
 
 .icenter{
     margin:auto 40px 10px;
     float:center;
-    border:solid 1px black;
 }
 
 .imleft{
@@ -70,10 +63,6 @@ input{
 img{
     width:125px; 
     margin:auto 240px;
-}
-
-.quack{
-    border:1px black dotted
 }
 
 .centered{
